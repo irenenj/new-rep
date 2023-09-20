@@ -1,0 +1,32 @@
+To create file in local and add to github,
+create a new file
+git add GITcommand.txt ---> to all file
+git commit -m "added GITcommand.txt" ---> to commit file
+git push orgin main(branch name) ----> to push to github
+git pull ---> github changes to local
+create file -> add -> commit -> push
+
+To create a folder in local clone to github
+CD new-rep ---> to enter folder
+CD .. ---> to go back to folder
+git add . ---> to add all files
+git init ---> create empty repository
+git remote add orgin (link) --- to connect others
+git branch ---> to see all the branches in repository
+git branch -m main ---> to change branch
+git push orgin (branch name) ---> to push all codes to repository
+
+branches
+git  branch -a ---> to see all branches
+git pull ---> to see all branches in local
+git checkout (branch name) ---> to switch to branch
+git commit -m "create file in (branch name)"
+git push orgin branch name ---> to make changes in github
+
+Example - All the team members will work individually in sub branch and after creating they will move the codes to main branch
+git diff (branch name) ---> to see difference in branch
+git merge (branch neme) ---> to merge
+git push orgin (branch name) ---> to see the changes in the github
+
+Pull Request - to tell the lead that i made changes in the sub branch and to merge it in the main branch
+
